@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [employees, setEmployees] = useState([]);
   const [form, setForm] = useState({ name: "", email: "", department: "" });
-  const API_URL = "http://localhost:8080/api/employees";
+  const API_URL = "https://employee-management-backend-production-7c09.up.railway.app/api/employees";
 
   // Fetch all employees
   const fetchEmployees = async () => {
